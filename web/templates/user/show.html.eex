@@ -1,0 +1,3 @@
+<h1><%= render "user.html", user: @user %></h1>
+
+<%= link "Users", to: user_path(@conn, :index) %> :3
