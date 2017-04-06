@@ -8,6 +8,7 @@
     <meta name="author" content="">
 
     <title>Hello Rumbl!</title>
+    <script>window.userToken = "<%= assigns[:user_token] %>"</script>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
